@@ -37,8 +37,6 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: >-
-          ${{ secrets.FIREBASE_SERVICE_ACCOUNT_BGI_ETHIOPIA_B8CFF
-          }}
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BGI_ETHIOPIA_B8CFF}}'
         channelId: live
         projectId: bgi-ethiopia-b8cff
