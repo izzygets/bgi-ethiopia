@@ -60,4 +60,4 @@ deploy_to_staging:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BGI_ETHIOPIA_STAGING }}'
           channelId: live
-          projectId: bgi-ethiopia-b8cff
+          projectId: bgi-ethiopia-staging
