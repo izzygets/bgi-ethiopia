@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "bgi-ethiopia-b8cff"
-  }
+    "default": "bgi-ethiopia-b8cff",
+    "staging": "bgi-ethiopia-staging"
+  },
+  "targets": {}
 }
