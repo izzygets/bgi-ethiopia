@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from './logo.png';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       height: '100vh',
       fontFamily: 'roboto'
     }}>
+    <img src={logo} alt="bgi logo" />
       <h1 style={{
         color: '#6EC177',
         margin: 0
